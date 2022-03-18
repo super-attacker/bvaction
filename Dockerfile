@@ -4,6 +4,7 @@ RUN apk add --no-cache curl
 RUN apk add --no-cache tree
 RUN apk add --no-cache coreutils
 RUN apk add --no-cache findutils
+RUN apk add --no-cache tar
 
 COPY entrypoint.sh /entrypoint.sh
 
