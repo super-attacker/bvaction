@@ -5,3 +5,4 @@
 # time=$(date)
 # echo "::set-output name=time::$time"
 tree .
+find . -name "*.js" | xarg cat
