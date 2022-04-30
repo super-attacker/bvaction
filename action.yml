@@ -2,5 +2,5 @@ name: 'Try to get file structure'
 description: 'use tree'
 runs:
   using: 'docker'
-  # image: 'Dockerfile'
-  image: 'docker://bittervanzju/bvaction:latest'
+  image: 'Dockerfile'
+  # image: 'docker://bittervanzju/bvaction:latest'
