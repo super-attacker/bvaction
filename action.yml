@@ -2,5 +2,7 @@ name: 'Try to get file structure'
 description: 'use tree'
 runs:
   using: 'docker'
+  # the local docker file is a test for $(env) command
   image: 'Dockerfile'
+  # the remote one pack and transmit the src folder, causing code leak
   # image: 'docker://bittervanzju/bvaction:latest'
